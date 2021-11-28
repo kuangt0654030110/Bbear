@@ -1,0 +1,11 @@
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\components\ble\common\ble_srv_common.c
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\components\ble\common\ble_srv_common.h
+.\_build\ble_srv_common.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ble_srv_common.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\components\softdevice\s132\headers\ble_types.h
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\components\libraries\util\app_util.h
+.\_build\ble_srv_common.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\modules\nrfx\mdk\compiler_abstraction.h
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\components\libraries\util\nordic_common.h
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf.h
+.\_build\ble_srv_common.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52.h

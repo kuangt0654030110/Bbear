@@ -1,0 +1,562 @@
+;#<FEEDBACK># ARM Linker, 5060422: Last Updated: Sat Nov 13 11:50:22 2021
+;VERSION 0.2
+;FILE alm_init_profile.o
+__asm___18_alm_init_profile_c_13aa4c2d____REV16 <= USED 0
+__asm___18_alm_init_profile_c_13aa4c2d____REVSH <= USED 0
+__asm___18_alm_init_profile_c_13aa4c2d____RRX <= USED 0
+;FILE app_button.o
+__asm___12_app_button_c_bd9cca92____REV16 <= USED 0
+__asm___12_app_button_c_bd9cca92____REVSH <= USED 0
+__asm___12_app_button_c_bd9cca92____RRX <= USED 0
+app_button_disable <= USED 0
+app_button_is_pushed <= USED 0
+;FILE app_error.o
+__asm___11_app_error_c_f415f3a1____REV16 <= USED 0
+__asm___11_app_error_c_f415f3a1____REVSH <= USED 0
+__asm___11_app_error_c_f415f3a1____RRX <= USED 0
+app_error_save_and_stop <= USED 0
+;FILE app_error_handler_keil.o
+__asm___24_app_error_handler_keil_c_94ae794d____REV16 <= USED 0
+__asm___24_app_error_handler_keil_c_94ae794d____REVSH <= USED 0
+__asm___24_app_error_handler_keil_c_94ae794d____RRX <= USED 0
+app_error_handler <= USED 0
+;FILE app_error_weak.o
+__asm___16_app_error_weak_c_b397ef13____REV16 <= USED 0
+__asm___16_app_error_weak_c_b397ef13____REVSH <= USED 0
+__asm___16_app_error_weak_c_b397ef13____RRX <= USED 0
+;FILE app_scheduler.o
+__asm___15_app_scheduler_c_d997b682____REV16 <= USED 0
+__asm___15_app_scheduler_c_d997b682____REVSH <= USED 0
+__asm___15_app_scheduler_c_d997b682____RRX <= USED 0
+app_sched_event_put <= USED 0
+app_sched_execute <= USED 0
+app_sched_init <= USED 0
+app_sched_queue_space_get <= USED 0
+;FILE app_timer.o
+__asm___11_app_timer_c_cd27f9c3____REV16 <= USED 0
+__asm___11_app_timer_c_cd27f9c3____REVSH <= USED 0
+__asm___11_app_timer_c_cd27f9c3____RRX <= USED 0
+app_timer_cnt_diff_compute <= USED 0
+app_timer_cnt_get <= USED 0
+app_timer_pause <= USED 0
+app_timer_resume <= USED 0
+app_timer_stop_all <= USED 0
+;FILE app_util_platform.o
+__asm___19_app_util_platform_c_6d89e7e5____REV16 <= USED 0
+__asm___19_app_util_platform_c_6d89e7e5____REVSH <= USED 0
+__asm___19_app_util_platform_c_6d89e7e5____RRX <= USED 0
+app_util_disable_irq <= USED 0
+app_util_enable_irq <= USED 0
+current_int_priority_get <= USED 0
+privilege_level_get <= USED 0
+;FILE arm_startup_nrf52.o
+;FILE ble_advdata.o
+__asm___13_ble_advdata_c_7cce476b____REV16 <= USED 0
+__asm___13_ble_advdata_c_7cce476b____REVSH <= USED 0
+__asm___13_ble_advdata_c_7cce476b____RRX <= USED 0
+ble_advdata_appearance_find <= USED 0
+ble_advdata_name_find <= USED 0
+ble_advdata_short_name_find <= USED 0
+ble_advdata_uuid_find <= USED 0
+;FILE ble_advertising.o
+__asm___17_ble_advertising_c_59383d5e____REV16 <= USED 0
+__asm___17_ble_advertising_c_59383d5e____REVSH <= USED 0
+__asm___17_ble_advertising_c_59383d5e____RRX <= USED 0
+ble_advertising_modes_config_set <= USED 0
+ble_advertising_peer_addr_reply <= USED 0
+ble_advertising_restart_without_whitelist <= USED 0
+ble_advertising_whitelist_reply <= USED 0
+;FILE ble_conn_params.o
+__asm___17_ble_conn_params_c_2dcac06e____REV16 <= USED 0
+__asm___17_ble_conn_params_c_2dcac06e____REVSH <= USED 0
+__asm___17_ble_conn_params_c_2dcac06e____RRX <= USED 0
+ble_conn_params_change_conn_params <= USED 0
+ble_conn_params_stop <= USED 0
+;FILE ble_conn_state.o
+__asm___16_ble_conn_state_c_eac0480a____REV16 <= USED 0
+__asm___16_ble_conn_state_c_eac0480a____REVSH <= USED 0
+__asm___16_ble_conn_state_c_eac0480a____RRX <= USED 0
+active_flag_count <= USED 0
+bcs_internal_state_reset <= USED 0
+ble_conn_state_central_conn_count <= USED 0
+ble_conn_state_central_handles <= USED 0
+ble_conn_state_conn_count <= USED 0
+ble_conn_state_conn_handles <= USED 0
+ble_conn_state_conn_idx <= USED 0
+ble_conn_state_for_each_connected <= USED 0
+ble_conn_state_init <= USED 0
+ble_conn_state_mitm_protected <= USED 0
+ble_conn_state_periph_handles <= USED 0
+ble_conn_state_peripheral_conn_count <= USED 0
+ble_conn_state_status <= USED 0
+;FILE ble_srv_common.o
+__asm___16_ble_srv_common_c_d5496d4d____REV16 <= USED 0
+__asm___16_ble_srv_common_c_d5496d4d____REVSH <= USED 0
+__asm___16_ble_srv_common_c_d5496d4d____RRX <= USED 0
+ble_srv_ascii_to_utf8 <= USED 0
+ble_srv_is_indication_enabled <= USED 0
+ble_srv_report_ref_encode <= USED 0
+descriptor_add <= USED 0
+;FILE board_adc.o
+ADC_Disable <= USED 0
+ADC_Read <= USED 0
+__asm___11_board_adc_c_9d1f5672____REV16 <= USED 0
+__asm___11_board_adc_c_9d1f5672____REVSH <= USED 0
+__asm___11_board_adc_c_9d1f5672____RRX <= USED 0
+;FILE boards.o
+__asm___8_boards_c_c0d5286b____REV16 <= USED 0
+__asm___8_boards_c_c0d5286b____REVSH <= USED 0
+__asm___8_boards_c_c0d5286b____RRX <= USED 0
+bsp_board_button_state_get <= USED 0
+bsp_board_led_idx_to_pin <= USED 0
+bsp_board_led_state_get <= USED 0
+bsp_board_leds_on <= USED 0
+bsp_board_pin_to_led_idx <= USED 0
+;FILE bsp.o
+__asm___5_bsp_c_2c5c7607____REV16 <= USED 0
+__asm___5_bsp_c_2c5c7607____REVSH <= USED 0
+__asm___5_bsp_c_2c5c7607____RRX <= USED 0
+bsp_button_is_pressed <= USED 0
+bsp_buttons_disable <= USED 0
+bsp_buttons_enable <= USED 0
+bsp_wakeup_button_disable <= USED 0
+;FILE bsp_btn_ble.o
+__asm___13_bsp_btn_ble_c_4c67689d____REV16 <= USED 0
+__asm___13_bsp_btn_ble_c_4c67689d____REVSH <= USED 0
+__asm___13_bsp_btn_ble_c_4c67689d____RRX <= USED 0
+bsp_btn_ble_init <= USED 0
+;FILE crc16.o
+__asm___7_crc16_c_86c6d57d____REV16 <= USED 0
+__asm___7_crc16_c_86c6d57d____REVSH <= USED 0
+__asm___7_crc16_c_86c6d57d____RRX <= USED 0
+crc16_compute <= USED 0
+;FILE fds.o
+__asm___5_fds_c_m_fs____REV16 <= USED 0
+__asm___5_fds_c_m_fs____REVSH <= USED 0
+__asm___5_fds_c_m_fs____RRX <= USED 0
+fds_descriptor_from_rec_id <= USED 0
+fds_record_delete <= USED 0
+fds_record_iterate <= USED 0
+fds_stat <= USED 0
+;FILE gatt_cache_manager.o
+__asm___20_gatt_cache_manager_c_7b469013____REV16 <= USED 0
+__asm___20_gatt_cache_manager_c_7b469013____REVSH <= USED 0
+__asm___20_gatt_cache_manager_c_7b469013____RRX <= USED 0
+gcm_local_database_has_changed <= USED 0
+gcm_local_db_cache_update <= USED 0
+;FILE gatts_cache_manager.o
+__asm___21_gatts_cache_manager_c_76a3a2bf____REV16 <= USED 0
+__asm___21_gatts_cache_manager_c_76a3a2bf____REVSH <= USED 0
+__asm___21_gatts_cache_manager_c_76a3a2bf____RRX <= USED 0
+gscm_local_database_has_changed <= USED 0
+;FILE hardfault_implementation.o
+__asm___26_hardfault_implementation_c____REV16 <= USED 0
+__asm___26_hardfault_implementation_c____REVSH <= USED 0
+__asm___26_hardfault_implementation_c____RRX <= USED 0
+;FILE id_manager.o
+__asm___12_id_manager_c_40579113____REV16 <= USED 0
+__asm___12_id_manager_c_40579113____REVSH <= USED 0
+__asm___12_id_manager_c_40579113____RRX <= USED 0
+im_device_identities_list_set <= USED 0
+im_id_addr_get <= USED 0
+im_id_addr_set <= USED 0
+im_privacy_get <= USED 0
+im_privacy_set <= USED 0
+im_whitelist_get <= USED 0
+im_whitelist_set <= USED 0
+;FILE main.o
+__asm___6_main_c_48b9ef9b____REV16 <= USED 0
+__asm___6_main_c_48b9ef9b____REVSH <= USED 0
+__asm___6_main_c_48b9ef9b____RRX <= USED 0
+assert_nrf_callback <= USED 0
+;FILE nrf_assert.o
+__asm___12_nrf_assert_c_48b9ef9b____REV16 <= USED 0
+__asm___12_nrf_assert_c_48b9ef9b____REVSH <= USED 0
+__asm___12_nrf_assert_c_48b9ef9b____RRX <= USED 0
+;FILE nrf_atfifo.o
+__asm___12_nrf_atfifo_c_51f461e1____REV16 <= USED 0
+__asm___12_nrf_atfifo_c_51f461e1____REVSH <= USED 0
+__asm___12_nrf_atfifo_c_51f461e1____RRX <= USED 0
+nrf_atfifo_alloc_put <= USED 0
+nrf_atfifo_get_free <= USED 0
+;FILE nrf_atflags.o
+__asm___13_nrf_atflags_c_59dac931____REV16 <= USED 0
+__asm___13_nrf_atflags_c_59dac931____REVSH <= USED 0
+__asm___13_nrf_atflags_c_59dac931____RRX <= USED 0
+nrf_atflags_fetch_clear <= USED 0
+nrf_atflags_find_and_clear_flag <= USED 0
+nrf_atflags_init <= USED 0
+;FILE nrf_atomic.o
+__asm___12_nrf_atomic_c_85ca2469____REV16 <= USED 0
+__asm___12_nrf_atomic_c_85ca2469____REVSH <= USED 0
+__asm___12_nrf_atomic_c_85ca2469____RRX <= USED 0
+__asm___12_nrf_atomic_c_85ca2469__nrf_atomic_internal_cmp_exch <= USED 0
+__asm___12_nrf_atomic_c_85ca2469__nrf_atomic_internal_eor <= USED 0
+__asm___12_nrf_atomic_c_85ca2469__nrf_atomic_internal_sub_hs <= USED 0
+nrf_atomic_flag_clear <= USED 0
+nrf_atomic_u32_cmp_exch <= USED 0
+nrf_atomic_u32_fetch_sub <= USED 0
+nrf_atomic_u32_fetch_sub_hs <= USED 0
+nrf_atomic_u32_fetch_xor <= USED 0
+nrf_atomic_u32_store <= USED 0
+nrf_atomic_u32_sub_hs <= USED 0
+nrf_atomic_u32_xor <= USED 0
+;FILE nrf_balloc.o
+__asm___12_nrf_balloc_c_36054c1e____REV16 <= USED 0
+__asm___12_nrf_balloc_c_36054c1e____REVSH <= USED 0
+__asm___12_nrf_balloc_c_36054c1e____RRX <= USED 0
+nrf_balloc_init <= USED 0
+;FILE nrf_ble_gatt.o
+__asm___14_nrf_ble_gatt_c_37369a8c____REV16 <= USED 0
+__asm___14_nrf_ble_gatt_c_37369a8c____REVSH <= USED 0
+__asm___14_nrf_ble_gatt_c_37369a8c____RRX <= USED 0
+nrf_ble_gatt_att_mtu_central_set <= USED 0
+nrf_ble_gatt_att_mtu_periph_set <= USED 0
+nrf_ble_gatt_data_length_get <= USED 0
+nrf_ble_gatt_data_length_set <= USED 0
+nrf_ble_gatt_eff_mtu_get <= USED 0
+;FILE nrf_ble_qwr.o
+__asm___13_nrf_ble_qwr_c_57697a77____REV16 <= USED 0
+__asm___13_nrf_ble_qwr_c_57697a77____REVSH <= USED 0
+__asm___13_nrf_ble_qwr_c_57697a77____RRX <= USED 0
+;FILE nrf_drv_clock.o
+__asm___15_nrf_drv_clock_c_e231564f____REV16 <= USED 0
+__asm___15_nrf_drv_clock_c_e231564f____REVSH <= USED 0
+__asm___15_nrf_drv_clock_c_e231564f____RRX <= USED 0
+nrf_drv_clock_calibration_abort <= USED 0
+nrf_drv_clock_calibration_start <= USED 0
+nrf_drv_clock_hfclk_is_running <= USED 0
+nrf_drv_clock_hfclk_release <= USED 0
+nrf_drv_clock_hfclk_request <= USED 0
+nrf_drv_clock_init_check <= USED 0
+nrf_drv_clock_is_calibrating <= USED 0
+nrf_drv_clock_lfclk_is_running <= USED 0
+nrf_drv_clock_lfclk_request <= USED 0
+nrf_drv_clock_uninit <= USED 0
+;FILE nrf_drv_uart.o
+__asm___14_nrf_drv_uart_c_fa4207eb____REV16 <= USED 0
+__asm___14_nrf_drv_uart_c_fa4207eb____REVSH <= USED 0
+__asm___14_nrf_drv_uart_c_fa4207eb____RRX <= USED 0
+nrf_drv_uart_init <= USED 0
+;FILE nrf_fprintf.o
+__asm___13_nrf_fprintf_c_277b2f17____REV16 <= USED 0
+__asm___13_nrf_fprintf_c_277b2f17____REVSH <= USED 0
+__asm___13_nrf_fprintf_c_277b2f17____RRX <= USED 0
+nrf_fprintf <= USED 0
+nrf_fprintf_buffer_flush <= USED 0
+;FILE nrf_fprintf_format.o
+__asm___20_nrf_fprintf_format_c_c9f8926c____REV16 <= USED 0
+__asm___20_nrf_fprintf_format_c_c9f8926c____REVSH <= USED 0
+__asm___20_nrf_fprintf_format_c_c9f8926c____RRX <= USED 0
+nrf_fprintf_fmt <= USED 0
+;FILE nrf_fstorage.o
+__asm___14_nrf_fstorage_c_d42fe8dc____REV16 <= USED 0
+__asm___14_nrf_fstorage_c_d42fe8dc____REVSH <= USED 0
+__asm___14_nrf_fstorage_c_d42fe8dc____RRX <= USED 0
+nrf_fstorage_read <= USED 0
+nrf_fstorage_rmap <= USED 0
+nrf_fstorage_uninit <= USED 0
+nrf_fstorage_wmap <= USED 0
+;FILE nrf_fstorage_sd.o
+__asm___17_nrf_fstorage_sd_c_4f51c57d____REV16 <= USED 0
+__asm___17_nrf_fstorage_sd_c_4f51c57d____REVSH <= USED 0
+__asm___17_nrf_fstorage_sd_c_4f51c57d____RRX <= USED 0
+;FILE nrf_log_backend_rtt.o
+__asm___21_nrf_log_backend_rtt_c_cfd52ccc____REV16 <= USED 0
+__asm___21_nrf_log_backend_rtt_c_cfd52ccc____REVSH <= USED 0
+__asm___21_nrf_log_backend_rtt_c_cfd52ccc____RRX <= USED 0
+nrf_log_backend_rtt_init <= USED 0
+;FILE nrf_log_backend_serial.o
+__asm___24_nrf_log_backend_serial_c_0c116b52____REV16 <= USED 0
+__asm___24_nrf_log_backend_serial_c_0c116b52____REVSH <= USED 0
+__asm___24_nrf_log_backend_serial_c_0c116b52____RRX <= USED 0
+nrf_log_backend_serial_put <= USED 0
+;FILE nrf_log_backend_uart.o
+__asm___22_nrf_log_backend_uart_c____REV16 <= USED 0
+__asm___22_nrf_log_backend_uart_c____REVSH <= USED 0
+__asm___22_nrf_log_backend_uart_c____RRX <= USED 0
+;FILE nrf_log_default_backends.o
+__asm___26_nrf_log_default_backends_c_86b355c2____REV16 <= USED 0
+__asm___26_nrf_log_default_backends_c_86b355c2____REVSH <= USED 0
+__asm___26_nrf_log_default_backends_c_86b355c2____RRX <= USED 0
+nrf_log_default_backends_init <= USED 0
+;FILE nrf_log_frontend.o
+__asm___18_nrf_log_frontend_c_3e9675d2____REV16 <= USED 0
+__asm___18_nrf_log_frontend_c_3e9675d2____REVSH <= USED 0
+__asm___18_nrf_log_frontend_c_3e9675d2____RRX <= USED 0
+nrf_log_backend_add <= USED 0
+nrf_log_backend_remove <= USED 0
+nrf_log_color_id_get <= USED 0
+nrf_log_frontend_hexdump <= USED 0
+nrf_log_frontend_std_4 <= USED 0
+nrf_log_frontend_std_5 <= USED 0
+nrf_log_frontend_std_6 <= USED 0
+nrf_log_init <= USED 0
+nrf_log_module_cnt_get <= USED 0
+nrf_log_module_filter_get <= USED 0
+nrf_log_module_filter_set <= USED 0
+nrf_log_module_name_get <= USED 0
+nrf_log_push <= USED 0
+;FILE nrf_log_str_formatter.o
+__asm___23_nrf_log_str_formatter_c_eaf13dec____REV16 <= USED 0
+__asm___23_nrf_log_str_formatter_c_eaf13dec____REVSH <= USED 0
+__asm___23_nrf_log_str_formatter_c_eaf13dec____RRX <= USED 0
+nrf_log_hexdump_entry_process <= USED 0
+nrf_log_std_entry_process <= USED 0
+nrf_log_str_formatter_timestamp_freq_set <= USED 0
+;FILE nrf_memobj.o
+__asm___12_nrf_memobj_c_9bb9f865____REV16 <= USED 0
+__asm___12_nrf_memobj_c_9bb9f865____REVSH <= USED 0
+__asm___12_nrf_memobj_c_9bb9f865____RRX <= USED 0
+nrf_memobj_pool_init <= USED 0
+nrf_memobj_read <= USED 0
+;FILE nrf_pwr_mgmt.o
+__asm___14_nrf_pwr_mgmt_c_f22138a6____REV16 <= USED 0
+__asm___14_nrf_pwr_mgmt_c_f22138a6____REVSH <= USED 0
+__asm___14_nrf_pwr_mgmt_c_f22138a6____RRX <= USED 0
+nrf_pwr_mgmt_feed <= USED 0
+nrf_pwr_mgmt_shutdown <= USED 0
+;FILE nrf_sdh.o
+__asm___9_nrf_sdh_c_b590db75____REV16 <= USED 0
+__asm___9_nrf_sdh_c_b590db75____REVSH <= USED 0
+__asm___9_nrf_sdh_c_b590db75____RRX <= USED 0
+nrf_sdh_is_suspended <= USED 0
+nrf_sdh_resume <= USED 0
+nrf_sdh_suspend <= USED 0
+;FILE nrf_sdh_ble.o
+__asm___13_nrf_sdh_ble_c_a9ced19c____REV16 <= USED 0
+__asm___13_nrf_sdh_ble_c_a9ced19c____REVSH <= USED 0
+__asm___13_nrf_sdh_ble_c_a9ced19c____RRX <= USED 0
+;FILE nrf_sdh_soc.o
+__asm___13_nrf_sdh_soc_c_20dc00a4____REV16 <= USED 0
+__asm___13_nrf_sdh_soc_c_20dc00a4____REVSH <= USED 0
+__asm___13_nrf_sdh_soc_c_20dc00a4____RRX <= USED 0
+;FILE nrf_section_iter.o
+__asm___18_nrf_section_iter_c_37890460____REV16 <= USED 0
+__asm___18_nrf_section_iter_c_37890460____REVSH <= USED 0
+__asm___18_nrf_section_iter_c_37890460____RRX <= USED 0
+;FILE nrf_strerror.o
+__asm___14_nrf_strerror_c_86062ffd____REV16 <= USED 0
+__asm___14_nrf_strerror_c_86062ffd____REVSH <= USED 0
+__asm___14_nrf_strerror_c_86062ffd____RRX <= USED 0
+;FILE nrfx_clock.o
+__asm___12_nrfx_clock_c_3a64df42____REV16 <= USED 0
+__asm___12_nrfx_clock_c_3a64df42____REVSH <= USED 0
+__asm___12_nrfx_clock_c_3a64df42____RRX <= USED 0
+nrfx_clock_calibration_start <= USED 0
+nrfx_clock_calibration_timer_start <= USED 0
+nrfx_clock_calibration_timer_stop <= USED 0
+nrfx_clock_disable <= USED 0
+nrfx_clock_hfclk_start <= USED 0
+nrfx_clock_hfclk_stop <= USED 0
+nrfx_clock_is_calibrating <= USED 0
+nrfx_clock_lfclk_start <= USED 0
+nrfx_clock_uninit <= USED 0
+;FILE nrfx_gpiote.o
+__asm___13_nrfx_gpiote_c_a58f7453____REV16 <= USED 0
+__asm___13_nrfx_gpiote_c_a58f7453____REVSH <= USED 0
+__asm___13_nrfx_gpiote_c_a58f7453____RRX <= USED 0
+nrfx_gpiote_clr_task_addr_get <= USED 0
+nrfx_gpiote_clr_task_trigger <= USED 0
+nrfx_gpiote_in_event_addr_get <= USED 0
+nrfx_gpiote_in_event_disable <= USED 0
+nrfx_gpiote_in_uninit <= USED 0
+nrfx_gpiote_out_clear <= USED 0
+nrfx_gpiote_out_init <= USED 0
+nrfx_gpiote_out_set <= USED 0
+nrfx_gpiote_out_task_addr_get <= USED 0
+nrfx_gpiote_out_task_disable <= USED 0
+nrfx_gpiote_out_task_enable <= USED 0
+nrfx_gpiote_out_task_force <= USED 0
+nrfx_gpiote_out_task_trigger <= USED 0
+nrfx_gpiote_out_toggle <= USED 0
+nrfx_gpiote_out_uninit <= USED 0
+nrfx_gpiote_set_task_addr_get <= USED 0
+nrfx_gpiote_set_task_trigger <= USED 0
+nrfx_gpiote_uninit <= USED 0
+;FILE nrfx_power_clock.o
+__asm___18_nrfx_power_clock_c____REV16 <= USED 0
+__asm___18_nrfx_power_clock_c____REVSH <= USED 0
+__asm___18_nrfx_power_clock_c____RRX <= USED 0
+;FILE nrfx_prs.o
+__asm___10_nrfx_prs_c_7bc970fd____REV16 <= USED 0
+__asm___10_nrfx_prs_c_7bc970fd____REVSH <= USED 0
+__asm___10_nrfx_prs_c_7bc970fd____RRX <= USED 0
+nrfx_prs_acquire <= USED 0
+nrfx_prs_release <= USED 0
+;FILE nrfx_saadc.o
+__asm___12_nrfx_saadc_c_5492986f____REV16 <= USED 0
+__asm___12_nrfx_saadc_c_5492986f____REVSH <= USED 0
+__asm___12_nrfx_saadc_c_5492986f____RRX <= USED 0
+nrfx_saadc_abort <= USED 0
+nrfx_saadc_calibrate_offset <= USED 0
+nrfx_saadc_channel_uninit <= USED 0
+nrfx_saadc_is_busy <= USED 0
+nrfx_saadc_limits_set <= USED 0
+nrfx_saadc_sample <= USED 0
+nrfx_saadc_sample_task_get <= USED 0
+nrfx_saadc_uninit <= USED 0
+;FILE nrfx_uart.o
+__asm___11_nrfx_uart_c_86530761____REV16 <= USED 0
+__asm___11_nrfx_uart_c_86530761____REVSH <= USED 0
+__asm___11_nrfx_uart_c_86530761____RRX <= USED 0
+nrfx_uart_0_irq_handler <= USED 0
+nrfx_uart_errorsrc_get <= USED 0
+nrfx_uart_init <= USED 0
+nrfx_uart_rx <= USED 0
+nrfx_uart_rx_abort <= USED 0
+nrfx_uart_rx_disable <= USED 0
+nrfx_uart_rx_enable <= USED 0
+nrfx_uart_rx_ready <= USED 0
+nrfx_uart_tx <= USED 0
+nrfx_uart_tx_abort <= USED 0
+nrfx_uart_tx_in_progress <= USED 0
+nrfx_uart_uninit <= USED 0
+;FILE nrfx_uarte.o
+__asm___12_nrfx_uarte_c_9b2ccb1a____REV16 <= USED 0
+__asm___12_nrfx_uarte_c_9b2ccb1a____REVSH <= USED 0
+__asm___12_nrfx_uarte_c_9b2ccb1a____RRX <= USED 0
+nrfx_uarte_0_irq_handler <= USED 0
+nrfx_uarte_errorsrc_get <= USED 0
+nrfx_uarte_init <= USED 0
+nrfx_uarte_rx <= USED 0
+nrfx_uarte_rx_abort <= USED 0
+nrfx_uarte_rx_ready <= USED 0
+nrfx_uarte_tx <= USED 0
+nrfx_uarte_tx_abort <= USED 0
+nrfx_uarte_tx_in_progress <= USED 0
+nrfx_uarte_uninit <= USED 0
+;FILE nrfx_wdt.o
+__asm___10_nrfx_wdt_c_31ba6760____REV16 <= USED 0
+__asm___10_nrfx_wdt_c_31ba6760____REVSH <= USED 0
+__asm___10_nrfx_wdt_c_31ba6760____RRX <= USED 0
+nrfx_wdt_feed <= USED 0
+;FILE peer_data_storage.o
+__asm___19_peer_data_storage_c_pds_init____REV16 <= USED 0
+__asm___19_peer_data_storage_c_pds_init____REVSH <= USED 0
+__asm___19_peer_data_storage_c_pds_init____RRX <= USED 0
+pds_peer_count_get <= USED 0
+pds_peer_data_delete <= USED 0
+;FILE peer_database.o
+__asm___15_peer_database_c_3cd7767a____REV16 <= USED 0
+__asm___15_peer_database_c_3cd7767a____REVSH <= USED 0
+__asm___15_peer_database_c_3cd7767a____RRX <= USED 0
+pdb_clear <= USED 0
+pdb_n_peers <= USED 0
+;FILE peer_id.o
+__asm___9_peer_id_c_cbb99fe4____REV16 <= USED 0
+__asm___9_peer_id_c_cbb99fe4____REVSH <= USED 0
+__asm___9_peer_id_c_cbb99fe4____RRX <= USED 0
+peer_id_n_ids <= USED 0
+;FILE peer_manager.o
+__asm___14_peer_manager_c_cf900614____REV16 <= USED 0
+__asm___14_peer_manager_c_cf900614____REVSH <= USED 0
+__asm___14_peer_manager_c_cf900614____RRX <= USED 0
+pm_address_resolve <= USED 0
+pm_conn_handle_get <= USED 0
+pm_conn_sec_params_reply <= USED 0
+pm_conn_sec_status_get <= USED 0
+pm_conn_secure <= USED 0
+pm_device_identities_list_set <= USED 0
+pm_id_addr_get <= USED 0
+pm_id_addr_set <= USED 0
+pm_lesc_public_key_set <= USED 0
+pm_local_database_has_changed <= USED 0
+pm_next_peer_id_get <= USED 0
+pm_peer_count <= USED 0
+pm_peer_data_app_data_load <= USED 0
+pm_peer_data_app_data_store <= USED 0
+pm_peer_data_bonding_load <= USED 0
+pm_peer_data_bonding_store <= USED 0
+pm_peer_data_delete <= USED 0
+pm_peer_data_load <= USED 0
+pm_peer_data_remote_db_load <= USED 0
+pm_peer_data_remote_db_store <= USED 0
+pm_peer_data_store <= USED 0
+pm_peer_id_get <= USED 0
+pm_peer_new <= USED 0
+pm_peer_rank_highest <= USED 0
+pm_privacy_get <= USED 0
+pm_privacy_set <= USED 0
+pm_whitelist_get <= USED 0
+pm_whitelist_set <= USED 0
+;FILE pm_buffer.o
+__asm___11_pm_buffer_c_dfd62912____REV16 <= USED 0
+__asm___11_pm_buffer_c_dfd62912____REVSH <= USED 0
+__asm___11_pm_buffer_c_dfd62912____RRX <= USED 0
+;FILE pm_mutex.o
+__asm___10_pm_mutex_c_3d8067ae____REV16 <= USED 0
+__asm___10_pm_mutex_c_3d8067ae____REVSH <= USED 0
+__asm___10_pm_mutex_c_3d8067ae____RRX <= USED 0
+;FILE security_dispatcher.o
+__asm___21_security_dispatcher_c_716d5940____REV16 <= USED 0
+__asm___21_security_dispatcher_c_716d5940____REVSH <= USED 0
+__asm___21_security_dispatcher_c_716d5940____RRX <= USED 0
+;FILE security_manager.o
+__asm___18_security_manager_c_3ad89192____REV16 <= USED 0
+__asm___18_security_manager_c_3ad89192____REVSH <= USED 0
+__asm___18_security_manager_c_3ad89192____RRX <= USED 0
+sm_lesc_public_key_set <= USED 0
+sm_link_secure <= USED 0
+sm_sec_params_reply <= USED 0
+;FILE segger_rtt.o
+SEGGER_RTT_AllocDownBuffer <= USED 0
+SEGGER_RTT_AllocUpBuffer <= USED 0
+SEGGER_RTT_ConfigDownBuffer <= USED 0
+SEGGER_RTT_ConfigUpBuffer <= USED 0
+SEGGER_RTT_GetKey <= USED 0
+SEGGER_RTT_HasData <= USED 0
+SEGGER_RTT_HasKey <= USED 0
+SEGGER_RTT_Init <= USED 0
+SEGGER_RTT_PutChar <= USED 0
+SEGGER_RTT_PutCharSkip <= USED 0
+SEGGER_RTT_PutCharSkipNoLock <= USED 0
+SEGGER_RTT_Read <= USED 0
+SEGGER_RTT_ReadNoLock <= USED 0
+SEGGER_RTT_SetFlagsDownBuffer <= USED 0
+SEGGER_RTT_SetFlagsUpBuffer <= USED 0
+SEGGER_RTT_SetNameDownBuffer <= USED 0
+SEGGER_RTT_SetNameUpBuffer <= USED 0
+SEGGER_RTT_SetTerminal <= USED 0
+SEGGER_RTT_TerminalOut <= USED 0
+SEGGER_RTT_WaitKey <= USED 0
+SEGGER_RTT_Write <= USED 0
+SEGGER_RTT_WriteNoLock <= USED 0
+SEGGER_RTT_WriteSkipNoLock <= USED 0
+SEGGER_RTT_WriteString <= USED 0
+SEGGER_RTT_WriteWithOverwriteNoLock <= USED 0
+__asm___12_SEGGER_RTT_c_c0f1166c____REV16 <= USED 0
+__asm___12_SEGGER_RTT_c_c0f1166c____REVSH <= USED 0
+__asm___12_SEGGER_RTT_c_c0f1166c____RRX <= USED 0
+;FILE segger_rtt_printf.o
+SEGGER_RTT_printf <= USED 0
+SEGGER_RTT_vprintf <= USED 0
+__asm___19_SEGGER_RTT_printf_c_0ffddd98____REV16 <= USED 0
+__asm___19_SEGGER_RTT_printf_c_0ffddd98____REVSH <= USED 0
+__asm___19_SEGGER_RTT_printf_c_0ffddd98____RRX <= USED 0
+;FILE segger_rtt_syscalls_keil.o
+__asm___26_SEGGER_RTT_Syscalls_KEIL_c_14805b4f____REV16 <= USED 0
+__asm___26_SEGGER_RTT_Syscalls_KEIL_c_14805b4f____REVSH <= USED 0
+__asm___26_SEGGER_RTT_Syscalls_KEIL_c_14805b4f____RRX <= USED 0
+_sys_close <= USED 0
+_sys_command_string <= USED 0
+_sys_ensure <= USED 0
+_sys_exit <= USED 0
+_sys_flen <= USED 0
+_sys_istty <= USED 0
+_sys_open <= USED 0
+_sys_read <= USED 0
+_sys_seek <= USED 0
+_sys_tmpnam <= USED 0
+_sys_write <= USED 0
+_ttywrch <= USED 0
+;FILE sensorsim.o
+sensorsim_decrement <= USED 0
+sensorsim_increment <= USED 0
+sensorsim_init <= USED 0
+sensorsim_measure <= USED 0
+;FILE system_nrf52.o
+SystemCoreClockUpdate <= USED 0
+__asm___14_system_nrf52_c_5d646a67____REV16 <= USED 0
+__asm___14_system_nrf52_c_5d646a67____REVSH <= USED 0
+__asm___14_system_nrf52_c_5d646a67____RRX <= USED 0
